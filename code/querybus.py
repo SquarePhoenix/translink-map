@@ -3,7 +3,7 @@ from ConfigParser import SafeConfigParser
 from bs4 import BeautifulSoup
 
 parser = SafeConfigParser()
-parser.read('api.config')
+parser.read('api.phx')
 APIKEY = parser.get('api', 'apiKey')
 
 
